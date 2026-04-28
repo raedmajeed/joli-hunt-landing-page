@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import { Play, Users } from 'lucide-react';
+import React from 'react';
+import { Users } from 'lucide-react';
 
 const VideoDemo = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
   return (
     <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
       {/* Background decoration */}
@@ -33,41 +31,14 @@ const VideoDemo = () => {
           </p>
         </div>
 
-        {/* Video Container */}
+        {/* Image Container */}
         <div className="relative animate-fade-in-up delay-200">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video">
-            {!isPlaying ? (
-              // Thumbnail with Play Button
-              <div className="absolute inset-0 bg-gradient-to-br from-[#1C1C1C] to-[#2A2A2A] flex items-center justify-center group cursor-pointer"
-                onClick={() => setIsPlaying(true)}
-              >
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAyMCAwIEwgMCAwIDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiAvPjwvc3ZnPg==')] opacity-40"></div>
-                
-                {/* Play Button */}
-                <div className="relative z-10 w-24 h-24 bg-[#D4A017] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-2xl">
-                  <Play className="w-10 h-10 text-white ml-1" fill="white" />
-                </div>
-
-                {/* Pulsing Rings */}
-                <div className="absolute w-24 h-24 bg-[#D4A017] rounded-full animate-ping opacity-20"></div>
-                <div className="absolute w-32 h-32 bg-[#D4A017] rounded-full animate-pulse opacity-10"></div>
-
-                {/* Duration Badge */}
-                <div className="absolute bottom-6 right-6 bg-black/80 px-4 py-2 rounded-lg backdrop-blur-sm">
-                  <span className="text-white font-semibold text-sm">2:30</span>
-                </div>
-              </div>
-            ) : (
-              // YouTube Embed
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/uwAnvbtIjrg?autoplay=1"
-                title="JoliHunt Demo"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            )}
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video">
+            <img
+              src="https://static.prod-images.emergentagent.com/jobs/c20f5ca7-a233-45ee-9672-95b413873fe7/images/2af026a93a88e59aa8b9c0618018d36b1b6ef6fbb867940e681fc27482619dbc.png"
+              alt="JoliHunt Dashboard Preview"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Floating Elements */}
