@@ -50,7 +50,7 @@ const SEO = ({
       <link rel="canonical" href={url} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="theme-color" content="#D4A017" />
+      <meta name="theme-color" content="#F4B400" />
       
       {/* Preconnect for performance */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -43,14 +43,14 @@ const HowItWorks = () => {
               <div key={step.id} className="relative">
                 {/* Connector Line (hidden on mobile, shown on desktop between steps) */}
                 {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-[#D4A017] opacity-30 transform translate-x-1/2" />
+                  <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-[#F4B400] opacity-30 transform translate-x-1/2" />
                 )}
 
                 <div className={`relative z-10 text-center ${
                   isVisible ? `animate-fade-in-up ${delay}` : 'opacity-0'
                 }`}>
                   {/* Number Circle */}
-                  <div className="inline-flex items-center justify-center w-24 h-24 bg-[#D4A017] text-white rounded-full mb-6 text-3xl font-bold shadow-lg transform transition-all duration-300 hover:scale-110 hover:rotate-12">
+                  <div className="inline-flex items-center justify-center w-24 h-24 bg-[#F4B400] text-white rounded-full mb-6 text-3xl font-bold shadow-lg transform transition-all duration-300 hover:scale-110 hover:rotate-12">
                     {step.number}
                   </div>
 

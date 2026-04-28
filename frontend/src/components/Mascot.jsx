@@ -9,7 +9,7 @@ const Mascot = ({ className = "", animate = true, variant = "default", size = "m
   };
 
   // Yellow color from logo
-  const primaryColor = "#D4A017";
+  const primaryColor = "#F4B400";
   
   return (
     <div className={`relative ${sizeClasses[size]} ${className}`}>

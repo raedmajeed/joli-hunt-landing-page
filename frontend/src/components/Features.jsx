@@ -35,8 +35,8 @@ const Features = () => {
       {/* Animated background */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 animate-pulse" style={{
-          backgroundImage: `radial-gradient(circle at 20% 50%, #D4A017 1px, transparent 1px),
-                           radial-gradient(circle at 80% 50%, #D4A017 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient(circle at 20% 50%, #F4B400 1px, transparent 1px),
+                           radial-gradient(circle at 80% 50%, #F4B400 1px, transparent 1px)`,
           backgroundSize: '50px 50px'
         }} />
       </div>
@@ -45,17 +45,17 @@ const Features = () => {
         {/* Heading with underline decoration */}
         <div className="text-center mb-12 lg:mb-20">
           <div className="inline-flex items-center gap-3 mb-4">
-            <Zap className="w-8 h-8 text-[#D4A017] animate-pulse" />
+            <Zap className="w-8 h-8 text-[#F4B400] animate-pulse" />
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1C1C1C] animate-fade-in-up">
               Everything your job search needs
             </h2>
-            <Zap className="w-8 h-8 text-[#D4A017] animate-pulse" />
+            <Zap className="w-8 h-8 text-[#F4B400] animate-pulse" />
           </div>
           {/* Decorative underline */}
           <div className="flex justify-center gap-2 items-center">
-            <div className="h-1 w-20 bg-gradient-to-r from-transparent to-[#D4A017] rounded-full"></div>
-            <div className="h-1.5 w-32 bg-[#D4A017] rounded-full"></div>
-            <div className="h-1 w-20 bg-gradient-to-l from-transparent to-[#D4A017] rounded-full"></div>
+            <div className="h-1 w-20 bg-gradient-to-r from-transparent to-[#F4B400] rounded-full"></div>
+            <div className="h-1.5 w-32 bg-[#F4B400] rounded-full"></div>
+            <div className="h-1 w-20 bg-gradient-to-l from-transparent to-[#F4B400] rounded-full"></div>
           </div>
         </div>
 
@@ -77,8 +77,8 @@ const Features = () => {
                   isVisible ? (isLeft ? 'animate-slide-in-left' : 'animate-slide-in-right') : 'opacity-0'
                 } relative`}>
                   {/* Gradient bg card */}
-                  <div className="bg-gradient-to-br from-white to-[#FAFAF8] p-8 rounded-2xl border-2 border-[#D4A017]/10 hover:border-[#D4A017]/30 transition-all duration-300 hover:shadow-xl">
-                    <div className="inline-block bg-[#D4A017] text-white px-4 py-1 rounded-full text-sm font-bold mb-4">
+                  <div className="bg-gradient-to-br from-white to-[#FAFAF8] p-8 rounded-2xl border-2 border-[#F4B400]/10 hover:border-[#F4B400]/30 transition-all duration-300 hover:shadow-xl">
+                    <div className="inline-block bg-[#F4B400] text-white px-4 py-1 rounded-full text-sm font-bold mb-4">
                       Feature {index + 1}
                     </div>
                     <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-[#1C1C1C] mb-4 lg:mb-6">
@@ -89,9 +89,9 @@ const Features = () => {
                     </p>
                     {/* Decorative dots */}
                     <div className="mt-6 flex gap-2">
-                      <div className="w-2 h-2 bg-[#D4A017] rounded-full animate-pulse"></div>
-                      <div className="w-2 h-2 bg-[#D4A017] rounded-full animate-pulse delay-100"></div>
-                      <div className="w-2 h-2 bg-[#D4A017] rounded-full animate-pulse delay-200"></div>
+                      <div className="w-2 h-2 bg-[#F4B400] rounded-full animate-pulse"></div>
+                      <div className="w-2 h-2 bg-[#F4B400] rounded-full animate-pulse delay-100"></div>
+                      <div className="w-2 h-2 bg-[#F4B400] rounded-full animate-pulse delay-200"></div>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Features = () => {
                 } relative group`}>
                   <DashboardMockup type={feature.mockupType} />
                   {/* Glow effect on hover */}
-                  <div className="absolute inset-0 bg-[#D4A017] opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-[#F4B400] opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300 pointer-events-none"></div>
                 </div>
               </div>
             );

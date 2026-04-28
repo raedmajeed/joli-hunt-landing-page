@@ -33,7 +33,7 @@ const DashboardMockup = ({ type = 'stats' }) => {
           {interviews.map((interview, index) => (
             <div
               key={index}
-              className="flex items-center justify-between p-4 bg-[#FAFAF8] rounded-lg border border-gray-100 hover:border-[#D4A017] transition-colors"
+              className="flex items-center justify-between p-4 bg-[#FAFAF8] rounded-lg border border-gray-100 hover:border-[#F4B400] transition-colors"
             >
               <div className="flex-1">
                 <div className="font-semibold text-[#1C1C1C]">{interview.company}</div>
@@ -56,10 +56,10 @@ const DashboardMockup = ({ type = 'stats' }) => {
 
   if (type === 'pipeline') {
     const stages = [
-      { name: 'Applications', count: 42, color: '#D4A017' },
+      { name: 'Applications', count: 42, color: '#F4B400' },
       { name: 'Screening', count: 18, color: '#6B6B6B' },
       { name: 'Interview', count: 8, color: '#10B981' },
-      { name: 'Offer', count: 3, color: '#D4A017' }
+      { name: 'Offer', count: 3, color: '#F4B400' }
     ];
 
     return (

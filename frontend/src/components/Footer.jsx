@@ -23,10 +23,10 @@ const Footer = () => {
               <img 
                 src="https://ik.imagekit.io/ftuyddcfm/ChatGPT%20Image%20Apr%2028,%202026%20at%2008_26_02%20PM.png" 
                 alt="J" 
-                className="h-10 w-auto object-contain"
+                className="h-12 w-auto object-contain translate-y-1"
               />
-              <span className="text-2xl font-black tracking-tighter flex items-center">
-                <span className="text-[#D4A017]">joli</span>
+              <span className="text-3xl font-black tracking-tighter flex items-center">
+                <span className="text-[#F4B400]">joli</span>
                 <span className="text-white">hunt</span>
               </span>
             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                       e.preventDefault();
                       scrollToSection(link.href);
                     }}
-                    className="text-gray-400 hover:text-[#D4A017] transition-colors duration-200"
+                    className="text-gray-400 hover:text-[#F4B400] transition-colors duration-200"
                   >
                     {link.label}
                   </a>
@@ -66,7 +66,7 @@ const Footer = () => {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-[#D4A017] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                className="w-10 h-10 bg-white/10 hover:bg-[#F4B400] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
               >
                 <Twitter size={20} />
               </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-[#D4A017] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                className="w-10 h-10 bg-white/10 hover:bg-[#F4B400] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
               >
                 <Linkedin size={20} />
               </a>
@@ -82,13 +82,13 @@ const Footer = () => {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-[#D4A017] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                className="w-10 h-10 bg-white/10 hover:bg-[#F4B400] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
               >
                 <Github size={20} />
               </a>
               <a
                 href="mailto:hello@jolihunt.com"
-                className="w-10 h-10 bg-white/10 hover:bg-[#D4A017] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                className="w-10 h-10 bg-white/10 hover:bg-[#F4B400] rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
               >
                 <Mail size={20} />
               </a>
@@ -106,10 +106,10 @@ const Footer = () => {
               © {currentYear} JoliHunt. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#privacy" className="text-gray-400 hover:text-[#D4A017] transition-colors">
+              <a href="#privacy" className="text-gray-400 hover:text-[#F4B400] transition-colors">
                 Privacy Policy
               </a>
-              <a href="#terms" className="text-gray-400 hover:text-[#D4A017] transition-colors">
+              <a href="#terms" className="text-gray-400 hover:text-[#F4B400] transition-colors">
                 Terms of Service
               </a>
             </div>

@@ -36,7 +36,7 @@ const Problem = () => {
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 2px 2px, #D4A017 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient(circle at 2px 2px, #F4B400 1px, transparent 1px)`,
           backgroundSize: '40px 40px'
         }} />
       </div>
@@ -55,7 +55,7 @@ const Problem = () => {
             return (
               <div
                 key={card.id}
-                className={`bg-white border-2 border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-[#D4A017] transition-all duration-300 transform hover:-translate-y-2 ${
+                className={`bg-white border-2 border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-[#F4B400] transition-all duration-300 transform hover:-translate-y-2 ${
                   isVisible ? `animate-fade-in-up ${delay}` : 'opacity-0'
                 }`}
               >

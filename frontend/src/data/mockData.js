@@ -52,7 +52,7 @@ export const testimonials = [
     role: "Product Designer",
     avatar: "AM",
     quote: "JoliHunt turned my chaotic job search into a clear process. I landed 3 offers in 6 weeks.",
-    color: "#D4A017"
+    color: "#F4B400"
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const testimonials = [
     role: "Software Engineer",
     avatar: "DN",
     quote: "Finally, a tool that actually helps. No more forgetting which company I applied to last week.",
-    color: "#D4A017"
+    color: "#F4B400"
   },
   {
     id: 3,
@@ -68,7 +68,7 @@ export const testimonials = [
     role: "Marketing Manager",
     avatar: "VK",
     quote: "The interview tracker saved me. I used to miss follow-ups constantly. Now I'm on top of everything.",
-    color: "#D4A017"
+    color: "#F4B400"
   }
 ];
 
@@ -105,10 +105,10 @@ export const footerLinks = [
 ];
 
 export const statsData = [
-  { label: "Total Active", value: "42", color: "#D4A017" },
+  { label: "Total Active", value: "42", color: "#F4B400" },
   { label: "Applied", value: "28", color: "#6B6B6B" },
   { label: "Scheduled", value: "8", color: "#10B981" },
-  { label: "Offers", value: "3", color: "#D4A017" }
+  { label: "Offers", value: "3", color: "#F4B400" }
 ];
 
 export const upcomingInterviews = [

@@ -49,7 +49,7 @@ const Hero = () => {
       {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-30 animate-pulse">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 2px 2px, #D4A017 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient(circle at 2px 2px, #F4B400 1px, transparent 1px)`,
           backgroundSize: '40px 40px'
         }} />
       </div>
@@ -66,7 +66,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1C1C1C] leading-tight mb-6">
               Your Job Search.
               <br />
-              <span className="text-[#D4A017]">Finally Organised.</span>
+              <span className="text-[#F4B400]">Finally Organised.</span>
             </h1>
             <p className="text-lg md:text-xl text-[#6B6B6B] mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up delay-200">
               Stop managing applications in messy spreadsheets. JoliHunt tracks every application, interview, and offer — all in one place.
@@ -74,7 +74,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up delay-300">
             <a 
               href="https://app.jolihunt.com/login" 
-              className="bg-[#D4A017] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#B8860B] transition-all duration-200 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 inline-block text-center"
+              className="bg-[#F4B400] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D9A000] transition-all duration-200 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 inline-block text-center"
             >
               Start Tracking - It's Free
             </a>
@@ -87,7 +87,7 @@ const Hero = () => {
               <div className="bg-white rounded-xl shadow-2xl p-6 border border-gray-200">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="text-center p-4 bg-[#FAFAF8] rounded-lg transform hover:scale-105 transition-transform">
-                    <div className="text-4xl font-black mb-1 text-[#D4A017] animate-scale-in tabular-nums">
+                    <div className="text-4xl font-black mb-1 text-[#F4B400] animate-scale-in tabular-nums">
                       {counts.active}
                     </div>
                     <div className="text-xs font-semibold text-[#6B6B6B]">Total Active</div>
@@ -105,7 +105,7 @@ const Hero = () => {
                     <div className="text-xs font-semibold text-[#6B6B6B]">Scheduled</div>
                   </div>
                   <div className="text-center p-4 bg-[#FAFAF8] rounded-lg transform hover:scale-105 transition-transform delay-300">
-                    <div className="text-4xl font-black mb-1 text-[#D4A017] animate-scale-in delay-300 tabular-nums">
+                    <div className="text-4xl font-black mb-1 text-[#F4B400] animate-scale-in delay-300 tabular-nums">
                       {counts.offers}
                     </div>
                     <div className="text-xs font-semibold text-[#6B6B6B]">Offers</div>
@@ -114,8 +114,8 @@ const Hero = () => {
               </div>
             </div>
             {/* Decorative elements with animation */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#D4A017] opacity-20 rounded-full blur-2xl animate-pulse" />
-            <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-[#D4A017] opacity-10 rounded-full blur-3xl animate-pulse delay-500" />
+            <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#F4B400] opacity-20 rounded-full blur-2xl animate-pulse" />
+            <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-[#F4B400] opacity-10 rounded-full blur-3xl animate-pulse delay-500" />
           </div>
         </div>
       </div>

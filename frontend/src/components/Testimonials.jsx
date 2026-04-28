@@ -55,8 +55,8 @@ const Testimonials = () => {
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: `linear-gradient(45deg, #D4A017 25%, transparent 25%, transparent 75%, #D4A017 75%, #D4A017),
-                           linear-gradient(45deg, #D4A017 25%, transparent 25%, transparent 75%, #D4A017 75%, #D4A017)`,
+          backgroundImage: `linear-gradient(45deg, #F4B400 25%, transparent 25%, transparent 75%, #F4B400 75%, #F4B400),
+                           linear-gradient(45deg, #F4B400 25%, transparent 25%, transparent 75%, #F4B400 75%, #F4B400)`,
           backgroundSize: '60px 60px',
           backgroundPosition: '0 0, 30px 30px'
         }} />
@@ -67,7 +67,7 @@ const Testimonials = () => {
           <h2 className={`text-3xl md:text-4xl lg:text-5xl font-black text-[#1C1C1C] mb-4 ${
             isVisible ? 'animate-fade-in-up' : 'opacity-0'
           }`}>
-            Real <span className="text-[#D4A017]">Stories</span>
+            Real <span className="text-[#F4B400]">Stories</span>
           </h2>
           <p className={`text-lg text-[#6B6B6B] max-w-2xl mx-auto ${
             isVisible ? 'animate-fade-in-up delay-100' : 'opacity-0'
@@ -92,7 +92,7 @@ const Testimonials = () => {
                 className="flex-shrink-0 w-80 lg:w-96 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 relative cursor-pointer"
               >
                 {/* Quote Mark Accent */}
-                <div className="absolute top-6 right-6 text-7xl text-[#D4A017] opacity-10 font-serif leading-none">
+                <div className="absolute top-6 right-6 text-7xl text-[#F4B400] opacity-10 font-serif leading-none">
                   "
                 </div>
 

@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white shadow-xl border-b-2 border-[#D4A017]/20' : 'bg-white/98 backdrop-blur-md shadow-lg'
+      isScrolled ? 'bg-white shadow-xl border-b-2 border-[#F4B400]/20' : 'bg-white/98 backdrop-blur-md shadow-lg'
     }`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -52,10 +52,10 @@ const Navbar = () => {
               <img 
                 src="https://ik.imagekit.io/ftuyddcfm/ChatGPT%20Image%20Apr%2028,%202026%20at%2008_26_02%20PM.png" 
                 alt="J" 
-                className="h-10 lg:h-12 w-auto object-contain"
+                className="h-14 lg:h-16 w-auto object-contain translate-y-1"
               />
-              <span className="text-2xl lg:text-3xl font-black tracking-tighter flex items-center">
-                <span className="text-[#D4A017]">joli</span>
+              <span className="text-3xl lg:text-4xl font-black tracking-tighter flex items-center">
+                <span className="text-[#F4B400]">joli</span>
                 <span className="text-[#1C1C1C]">hunt</span>
               </span>
               </button>
@@ -67,10 +67,10 @@ const Navbar = () => {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.href)}
-                  className="text-[#1C1C1C] hover:text-[#D4A017] font-bold text-sm transition-all duration-200 relative group px-2 py-1"
+                  className="text-[#1C1C1C] hover:text-[#F4B400] font-bold text-sm transition-all duration-200 relative group px-2 py-1"
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#D4A017] group-hover:w-full transition-all duration-300 rounded-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#F4B400] group-hover:w-full transition-all duration-300 rounded-full"></span>
                 </button>
               ))}
             </div>
@@ -78,13 +78,13 @@ const Navbar = () => {
 
           {/* Right: Desktop Phone & CTA */}
           <div className="hidden lg:flex items-center gap-6">
-            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#D4A017] transition-colors group">
+            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#F4B400] transition-colors group">
               <Phone className="w-4 h-4 group-hover:rotate-12 transition-transform" />
               <span className="font-bold text-sm">+91 790 249 8141</span>
             </a>
             <a 
               href="https://app.jolihunt.com/login" 
-              className="bg-[#D4A017] text-white px-8 py-3 rounded-full font-black text-sm hover:bg-[#B8860B] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-0.5 hover:scale-105"
+              className="bg-[#F4B400] text-white px-8 py-3 rounded-full font-black text-sm hover:bg-[#D9A000] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-0.5 hover:scale-105"
             >
               Get Started Free
             </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2 text-[#1C1C1C] hover:text-[#D4A017] transition-colors"
+            className="lg:hidden p-2 text-[#1C1C1C] hover:text-[#F4B400] transition-colors"
           >
             {isMobileMenuOpen ? '✕' : '☰'}
           </button>
@@ -110,12 +110,12 @@ const Navbar = () => {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.href)}
-                className="text-[#1C1C1C] hover:text-[#D4A017] font-semibold text-lg transition-colors duration-200 text-left"
+                className="text-[#1C1C1C] hover:text-[#F4B400] font-semibold text-lg transition-colors duration-200 text-left"
               >
                 {link.label}
               </button>
             ))}
-            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#D4A017] transition-colors pt-4 border-t border-gray-200">
+            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#F4B400] transition-colors pt-4 border-t border-gray-200">
               <Phone className="w-5 h-5" />
               <span className="font-semibold">+91 7902498141</span>
             </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <div className="mt-8">
             <a 
               href="https://app.jolihunt.com/login" 
-              className="block w-full bg-[#D4A017] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#B8860B] transition-all duration-200 shadow-lg text-center"
+              className="block w-full bg-[#F4B400] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#D9A000] transition-all duration-200 shadow-lg text-center"
             >
               Get Started Free
             </a>

@@ -38,12 +38,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #D4A017;
+    background: #F4B400;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #B8860B;
+    background: #D9A000;
 }
 
 /* Custom Animations */

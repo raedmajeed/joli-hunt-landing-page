@@ -47,15 +47,15 @@ button:not(:disabled):active {
 }
 
 /* Primary button gradient */
-button.bg-\[#D4A017\],
-.bg-\[#D4A017\] {
-    background: linear-gradient(135deg, #D4A017 0%, #B8860B 100%);
+button.bg-\[#F4B400\],
+.bg-\[#F4B400\] {
+    background: linear-gradient(135deg, #F4B400 0%, #D9A000 100%);
     position: relative;
     overflow: hidden;
 }
 
-button.bg-\[#D4A017\]::before,
-.bg-\[#D4A017\]::before {
+button.bg-\[#F4B400\]::before,
+.bg-\[#F4B400\]::before {
     content: '';
     position: absolute;
     top: 0;
@@ -66,8 +66,8 @@ button.bg-\[#D4A017\]::before,
     transition: left 0.5s;
 }
 
-button.bg-\[#D4A017\]:hover::before,
-.bg-\[#D4A017\]:hover::before {
+button.bg-\[#F4B400\]:hover::before,
+.bg-\[#F4B400\]:hover::before {
     left: 100%;
 }
 

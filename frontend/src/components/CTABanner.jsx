@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTABanner = () => {
   return (
-    <section className="py-16 lg:py-20 bg-[#D4A017] relative overflow-hidden">
+    <section className="py-16 lg:py-20 bg-[#F4B400] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -24,7 +24,7 @@ const CTABanner = () => {
         <div className="max-w-md mx-auto mb-8">
           <a 
             href="https://app.jolihunt.com/login" 
-            className="inline-block bg-white text-[#D4A017] px-10 py-4 rounded-lg font-black text-xl hover:bg-[#FAFAF8] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105"
+            className="inline-block bg-white text-[#F4B400] px-10 py-4 rounded-lg font-black text-xl hover:bg-[#FAFAF8] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105"
           >
             Get Started Free
           </a>
