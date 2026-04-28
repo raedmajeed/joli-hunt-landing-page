@@ -35,7 +35,7 @@ const VideoDemo = () => {
         <div className="relative animate-fade-in-up delay-200">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video">
             <img
-              src="https://static.prod-images.emergentagent.com/jobs/c20f5ca7-a233-45ee-9672-95b413873fe7/images/2af026a93a88e59aa8b9c0618018d36b1b6ef6fbb867940e681fc27482619dbc.png"
+              src="https://ik.imagekit.io/ftuyddcfm/2ee08047-3136-4d8f-8398-a39ce9cdd781.png?updatedAt=1777393114172"
               alt="JoliHunt Dashboard Preview"
               className="w-full h-full object-cover"
             />

@@ -72,9 +72,12 @@ const Hero = () => {
               Stop managing applications in messy spreadsheets. JoliHunt tracks every application, interview, and offer — all in one place.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up delay-300">
-              <button className="bg-[#D4A017] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#B8860B] transition-all duration-200 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
-                Start Tracking - It's Free
-              </button>
+            <a 
+              href="https://app.jolihunt.com/login" 
+              className="bg-[#D4A017] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#B8860B] transition-all duration-200 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 inline-block text-center"
+            >
+              Start Tracking - It's Free
+            </a>
             </div>
           </div>
 

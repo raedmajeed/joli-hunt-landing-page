@@ -18,7 +18,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand Column */}
           <div>
-            <div className="text-2xl font-bold text-[#D4A017] mb-4">JOLIHUNT</div>
+            <div className="mb-4">
+              <img 
+                src="https://ik.imagekit.io/ftuyddcfm/IMG_1730.jpg?updatedAt=1777393697536" 
+                alt="JOLIHUNT" 
+                className="h-16 w-auto object-contain mix-blend-multiply"
+              />
+            </div>
             <p className="text-gray-400 mb-4 italic">Career Curation</p>
             <p className="text-gray-400 text-sm leading-relaxed">
               Organize your job search with clarity and confidence. Track applications, interviews, and offers all in one place.

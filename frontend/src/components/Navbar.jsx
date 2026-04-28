@@ -44,39 +44,46 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo with sparkle */}
-          <div className="flex-shrink-0">
-            <button onClick={handleLogoClick} className="flex items-center gap-2 group">
-              <span className="text-2xl font-black text-[#D4A017] tracking-tight group-hover:scale-105 transition-transform">
-                JOLIHUNT
-              </span>
-              <Sparkles className="w-4 h-4 text-[#D4A017] group-hover:rotate-12 transition-transform" />
-            </button>
-          </div>
-
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8 bg-[#FAFAF8] px-6 py-2 rounded-full">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollToSection(link.href)}
-                className="text-[#1C1C1C] hover:text-[#D4A017] font-bold text-sm transition-all duration-200 relative group px-3 py-1"
-              >
-                {link.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#D4A017] group-hover:w-full transition-all duration-300 rounded-full"></span>
+          {/* Left: Logo & Navigation */}
+          <div className="flex items-center gap-12">
+            {/* Logo */}
+            <div className="flex-shrink-0">
+              <button onClick={handleLogoClick} className="flex items-center gap-2 group">
+                <img 
+                  src="https://ik.imagekit.io/ftuyddcfm/IMG_1730.jpg?updatedAt=1777393697536" 
+                  alt="JOLIHUNT" 
+                  className="h-16 lg:h-20 w-auto object-contain mix-blend-multiply"
+                />
               </button>
-            ))}
+            </div>
+
+            {/* Desktop Navigation Links */}
+            <div className="hidden lg:flex items-center space-x-6">
+              {navLinks.map((link) => (
+                <button
+                  key={link.id}
+                  onClick={() => scrollToSection(link.href)}
+                  className="text-[#1C1C1C] hover:text-[#D4A017] font-bold text-sm transition-all duration-200 relative group px-2 py-1"
+                >
+                  {link.label}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#D4A017] group-hover:w-full transition-all duration-300 rounded-full"></span>
+                </button>
+              ))}
+            </div>
           </div>
 
-          {/* Desktop Phone & CTA */}
-          <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#D4A017] transition-colors group px-4 py-2 bg-[#FAFAF8] rounded-full">
+          {/* Right: Desktop Phone & CTA */}
+          <div className="hidden lg:flex items-center gap-6">
+            <a href="tel:+917902498141" className="flex items-center gap-2 text-[#1C1C1C] hover:text-[#D4A017] transition-colors group">
               <Phone className="w-4 h-4 group-hover:rotate-12 transition-transform" />
               <span className="font-bold text-sm">+91 790 249 8141</span>
             </a>
-            <button className="bg-[#D4A017] text-white px-6 py-2.5 rounded-full font-black text-sm hover:bg-[#B8860B] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-0.5 hover:scale-105">
+            <a 
+              href="https://app.jolihunt.com/login" 
+              className="bg-[#D4A017] text-white px-8 py-3 rounded-full font-black text-sm hover:bg-[#B8860B] transition-all duration-200 hover:shadow-2xl transform hover:-translate-y-0.5 hover:scale-105"
+            >
               Get Started Free
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,9 +117,12 @@ const Navbar = () => {
             </a>
           </div>
           <div className="mt-8">
-            <button className="w-full bg-[#D4A017] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#B8860B] transition-all duration-200 shadow-lg">
+            <a 
+              href="https://app.jolihunt.com/login" 
+              className="block w-full bg-[#D4A017] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#B8860B] transition-all duration-200 shadow-lg text-center"
+            >
               Get Started Free
-            </button>
+            </a>
           </div>
         </div>
       </div>
