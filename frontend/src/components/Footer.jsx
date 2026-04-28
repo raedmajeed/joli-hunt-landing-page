@@ -19,11 +19,17 @@ const Footer = () => {
           {/* Brand Column */}
           <div>
             <div className="mb-4">
+            <div className="flex items-center gap-2 mb-4">
               <img 
-                src="https://ik.imagekit.io/ftuyddcfm/IMG_1730.jpg?updatedAt=1777393697536" 
-                alt="JOLIHUNT" 
-                className="h-16 w-auto object-contain mix-blend-multiply"
+                src="https://ik.imagekit.io/ftuyddcfm/ChatGPT%20Image%20Apr%2028,%202026%20at%2008_26_02%20PM.png" 
+                alt="J" 
+                className="h-10 w-auto object-contain"
               />
+              <span className="text-2xl font-black tracking-tighter flex items-center">
+                <span className="text-[#D4A017]">joli</span>
+                <span className="text-white">hunt</span>
+              </span>
+            </div>
             </div>
             <p className="text-gray-400 mb-4 italic">Career Curation</p>
             <p className="text-gray-400 text-sm leading-relaxed">

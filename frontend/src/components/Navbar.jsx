@@ -49,11 +49,15 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <button onClick={handleLogoClick} className="flex items-center gap-2 group">
-                <img 
-                  src="https://ik.imagekit.io/ftuyddcfm/IMG_1730.jpg?updatedAt=1777393697536" 
-                  alt="JOLIHUNT" 
-                  className="h-16 lg:h-20 w-auto object-contain mix-blend-multiply"
-                />
+              <img 
+                src="https://ik.imagekit.io/ftuyddcfm/ChatGPT%20Image%20Apr%2028,%202026%20at%2008_26_02%20PM.png" 
+                alt="J" 
+                className="h-10 lg:h-12 w-auto object-contain"
+              />
+              <span className="text-2xl lg:text-3xl font-black tracking-tighter flex items-center">
+                <span className="text-[#D4A017]">joli</span>
+                <span className="text-[#1C1C1C]">hunt</span>
+              </span>
               </button>
             </div>
 
