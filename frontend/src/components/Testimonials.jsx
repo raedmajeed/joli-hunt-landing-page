@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ArrowRight } from 'lucide-react';
 import { testimonials } from '../data/mockData';
 
 const Testimonials = () => {
@@ -117,14 +116,6 @@ const Testimonials = () => {
               </div>
             );
           })}
-        </div>
-
-        {/* See All Button */}
-        <div className="flex justify-center mt-12">
-          <button className="bg-white border-2 border-[#D4A017] text-[#D4A017] px-8 py-4 rounded-full font-black text-lg hover:bg-[#D4A017] hover:text-white transition-all duration-300 flex items-center gap-3 group shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
-            See All Testimonials
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
-          </button>
         </div>
       </div>
 

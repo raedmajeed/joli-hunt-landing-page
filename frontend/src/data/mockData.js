@@ -48,25 +48,25 @@ export const features = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Chen",
+    name: "Arjun Menon",
     role: "Product Designer",
-    avatar: "SC",
+    avatar: "AM",
     quote: "JoliHunt turned my chaotic job search into a clear process. I landed 3 offers in 6 weeks.",
     color: "#D4A017"
   },
   {
     id: 2,
-    name: "Marcus Johnson",
+    name: "Devika Nair",
     role: "Software Engineer",
-    avatar: "MJ",
+    avatar: "DN",
     quote: "Finally, a tool that actually helps. No more forgetting which company I applied to last week.",
     color: "#D4A017"
   },
   {
     id: 3,
-    name: "Priya Patel",
+    name: "Vishnu Krishnan",
     role: "Marketing Manager",
-    avatar: "PP",
+    avatar: "VK",
     quote: "The interview tracker saved me. I used to miss follow-ups constantly. Now I'm on top of everything.",
     color: "#D4A017"
   }
@@ -95,14 +95,12 @@ export const steps = [
 
 export const navLinks = [
   { id: "testimonials", label: "Testimonials", href: "#testimonials" },
-  { id: "blog", label: "Blog", href: "/blog" },
   { id: "contact", label: "Contact", href: "#contact" }
 ];
 
 export const footerLinks = [
   { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" }
 ];
 
