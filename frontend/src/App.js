@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "./components/ui/sonner";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // Lazy load pages for better performance
 const LandingPage = lazy(() => import("./pages/LandingPage"));
@@ -26,6 +27,7 @@ function App() {
           </Routes>
         </Suspense>
         <Toaster position="top-right" />
+        <SpeedInsights />
       </BrowserRouter>
     </div>
   );
